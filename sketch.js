@@ -9,17 +9,17 @@ var cars = [];
 var blastImage
 
 function preload() {
-  backgroundImage = loadImage("./assets/background.png");
-  car1_img = loadImage("../assets/car1.png");
-  car2_img = loadImage("../assets/car2.png");
+  backgroundImage = loadImage("assets/background.png");
+  car1_img = loadImage("assets/car1.png");
+  car2_img = loadImage("assets/car2.png");
   car1Crash = loadAnimation("assets/car1.png","assets/car2.png")
   car2Crash = loadAnimation("assets/car2.png","assets/car1.png")
-  track = loadImage("../assets/track.jpg");
-  fuelImage = loadImage("./assets/fuel.png");
-  powerCoinImage = loadImage("./assets/goldCoin.png");
-  obstacle1Image = loadImage("./assets/obstacle1.png");
-  obstacle2Image = loadImage("./assets/obstacle2.png");
-  lifeImage = loadImage("./assets/life.png");
+  track = loadImage("assets/track.jpg");
+  fuelImage = loadImage("assets/fuel.png");
+  powerCoinImage = loadImage("assets/goldCoin.png");
+  obstacle1Image = loadImage("assets/obstacle1.png");
+  obstacle2Image = loadImage("assets/obstacle2.png");
+  lifeImage = loadImage("assets/life.png");
   blastImage = loadImage("assets/blast.png")
 }
 
